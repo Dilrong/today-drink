@@ -1,0 +1,12 @@
+{
+  "name": "today-drink",
+  "displayName": "today-drink",
+  "expo": {
+    "name": "today-drink",
+    "slug": "today-drink",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
