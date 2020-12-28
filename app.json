@@ -1,12 +1,23 @@
 {
-  "name": "today-drink",
-  "displayName": "today-drink",
+  "name": "오늘의 음료",
+  "displayName": "오늘의 음료",
   "expo": {
-    "name": "today-drink",
+    "name": "오늘의 음료",
     "slug": "today-drink",
-    "version": "1.0.0",
+    "version": "1.0.2",
+    "orientation": "portrait",
     "assetBundlePatterns": [
       "**/*"
-    ]
+    ],
+    "icon": "./src/assets/ic_launcher.png",
+    "splash": {
+      "image": "./src/assets/splash.png",
+      "backgroundColor": "#fff"
+    },
+    "android": {
+      "package": "com.dilrong.todaydrink",
+      "versionCode": 3,
+      "googleServicesFile": "./google-services.json"
+    }
   }
 }
